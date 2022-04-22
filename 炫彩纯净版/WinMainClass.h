@@ -6,10 +6,10 @@
 class WinMainClass
 {
 public:
-    HWINDOW m_hWindow; //窗口句柄
-    HELE    m_hButton; //按钮句柄
+	HWINDOW m_hWindow; //窗口句柄
+	HELE    m_hButton; //按钮句柄
 
-    BOOL Create(); //创建窗口和按钮
+	BOOL Create(); //创建窗口和按钮
 
-    int OnEventBtnClick(BOOL* pbHandled); //按钮点击事件响应
+	int OnEventBtnClick(BOOL* pbHandled); //按钮点击事件响应
 };
