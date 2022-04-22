@@ -4,10 +4,10 @@
 
 
 BOOL WinMainClass::Create() {
-        m_hWindow = XWnd_Create(0, 0, 400, 300, L"炫彩界面库-窗口"); //创建窗口
+        m_hWindow = XWnd_Create(0, 0, 750, 500, L"炫彩界面库-窗口"); //创建窗口
         if (m_hWindow)
         {
-            m_hButton = XBtn_Create(10, 60, 80, 25, L"按钮", m_hWindow); //创建按钮
+         m_hButton = XBtn_Create(20, 100, 70,30, L"按钮",m_hWindow); //创建按钮
             XEle_RegEventCPP(m_hButton, XE_BNCLICK, &WinMainClass::OnEventBtnClick); //注册按钮点击事件
 
             XWnd_AdjustLayout(m_hWindow); //调整布局,如果没有使用布局功能,可以不调用此函数
