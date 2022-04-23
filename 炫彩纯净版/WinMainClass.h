@@ -1,7 +1,7 @@
 #pragma once
 // ìÅ²Ê´°¿Ú±ØÐëµÄÒÀÀµ
-#include "../../XC_DLL_X86/xcgui.h"
-#pragma comment(lib, "../../XC_DLL_X86/xcgui.lib")
+#include "../XC_DLL_X86/xcgui.h"
+#pragma comment(lib, "../XC_DLL_X86/xcgui.lib")
 
 class WinMainClass
 {
